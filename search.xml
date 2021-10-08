@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>JAVA基础知识之数据类型</title>
+      <link href="/2021/10/08/java-ji-chu-zhi-shi-zhi-shu-ju-lei-xing/"/>
+      <url>/2021/10/08/java-ji-chu-zhi-shi-zhi-shu-ju-lei-xing/</url>
+      
+        <content type="html"><![CDATA[<p>Java中规定整数默认是int，浮点数默认是double。<br>如果要把一个浮点数赋值给一个float的变量，float f=10.0f。  </p><ul><li><p>Java字符中‘\u’的含义<br>‘\u’是转义字符，表示后面跟一个十六进制数，通过这个十六进制数来指定一个字符</p></li><li><p>List<String>不能转换为List<Object><br>虽然 String 是 Object 的子类型，但是 List<String> 不是 List<Object> 的子类型。如果 List<String> 是 List<Object> 的子类型的话，在面向抽象编程的时候，就可能向 String List 中加入其它类型的对象，显然编译不通过。</p></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>将Blog备份到GitHub</title>
       <link href="/2021/09/28/jiang-blog-bei-fen-dao-github/"/>
       <url>/2021/09/28/jiang-blog-bei-fen-dao-github/</url>
@@ -15,6 +34,44 @@
         <tags>
             
             <tag> Blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JAVA基础知识之FileOutputStream流</title>
+      <link href="/2021/09/28/java-ji-chu-zhi-shi-zhi-fileoutputstream-liu/"/>
+      <url>/2021/09/28/java-ji-chu-zhi-shi-zhi-fileoutputstream-liu/</url>
+      
+        <content type="html"><![CDATA[<p>FileOutputStream流是指文件字节输出流，专用于输出原始字节流如图像数据等，其继承OutputStream类，拥有输出流的基本特性。<br>构造函数：</p><pre><code>public FileOutputStream(File file,boolean append) throws FileNotFoundException&#123;&#125;</code></pre><p>当<strong>append</strong>为true时，从文件末尾写入数据。<br>当<strong>append</strong>为false时，从文件头部写入，就是覆盖，默认为false。  </p><p>参考文档：</p><ol><li><a href="https://blog.csdn.net/ai_bao_zi/article/details/81110405">https://blog.csdn.net/ai_bao_zi/article/details/81110405</a></li><li><a href="https://blog.csdn.net/QPC908694753/article/details/70159436/">https://blog.csdn.net/QPC908694753/article/details/70159436/</a></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java基础知识之文件、流体系结构、NIO</title>
+      <link href="/2021/09/28/java-ji-chu-zhi-shi-zhi-wen-jian-liu-ti-xi-jie-gou-nio/"/>
+      <url>/2021/09/28/java-ji-chu-zhi-shi-zhi-wen-jian-liu-ti-xi-jie-gou-nio/</url>
+      
+        <content type="html"><![CDATA[<ul><li>BufferedReader: <a href="https://blog.csdn.net/ai_bao_zi/article/details/81134801">JAVA基础知识之BufferedReader流</a>  </li><li>BufferedWriter: 将内容写入文件<a href="https://blog.csdn.net/ai_bao_zi/article/details/81187688">JAVA基础知识之BufferedWriter流</a>  </li><li>BufferedInputStream:  <a href="https://www.cnblogs.com/isme-zjh/p/11506495.html">BufferedInputStream 介绍</a>、<br><a href="https://blog.csdn.net/qq_26971305/article/details/79472696">缓存字节流BufferedInputStream使用及原理解析</a>  </li><li>BufferedOutputStream: <a href="https://blog.csdn.net/scbiaosdo/article/details/80422490">Java中BufferedOutputStream类的常用方法</a>  </li><li>Java中IO和NIO的区别: <a href="https://blog.csdn.net/linjpg/article/details/80962453">Java IO 和 NIO的区别</a>    IO面向流，NIO面向块</li><li><a href="https://www.zhihu.com/question/19732473/answer/241673170">怎样理解阻塞非阻塞与同步异步的区别？</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
             
         </tags>
       
